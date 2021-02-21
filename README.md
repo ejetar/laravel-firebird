@@ -1,6 +1,5 @@
-# Laravel Firebird  
+# Laravel Firebird
 
----
 ![GitHub last commit](https://img.shields.io/github/last-commit/ejetar/laravel-firebird)
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/ejetar/laravel-firebird)
 ![GitHub](https://img.shields.io/github/license/ejetar/laravel-firebird)
