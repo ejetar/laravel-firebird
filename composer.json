@@ -1,0 +1,35 @@
+{
+    "name": "ejetar/laravel-firebird",
+    "description": "Use Eloquent and QueryBuilder with a Firebird database \uD83D\uDD25",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Guilherme A. Girardi",
+            "email": "guilhermeagirardi@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1",
+        "illuminate/support": "~5.5.0|~5.6.0|~5.7.0|~5.8.0|^6.0|^7.0|^8.0",
+        "illuminate/container": "~5.5.0|~5.6.0|~5.7.0|~5.8.0|^6.0|^7.0|^8.0",
+        "illuminate/database": "~5.5.0|~5.6.0|~5.7.0|~5.8.0|^6.0|^7.0|^8.0",
+        "illuminate/events": "~5.5.0|~5.6.0|~5.7.0|~5.8.0|^6.0|^7.0|^8.0"
+    },
+    "require-dev": {
+        "mockery/mockery": "~1.0",
+        "phpunit/phpunit": "~7.0|^8.0|^9.0",
+        "orchestra/testbench": "~3.7|^4.0|^5.0|^6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ejetar\\LaravelFirebird\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ejetar\\LaravelFirebird\\FirebirdServiceProvider"
+            ]
+        }
+    }
+}

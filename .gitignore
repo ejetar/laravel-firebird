@@ -1,0 +1,6 @@
+/vendor
+.DS_Store
+.*.sw?
+.idea
+/nbproject
+/node_modules
